@@ -1,0 +1,38 @@
+.header{ 
+    width: 100%;
+    height: 100px;
+    background-color: #DD1A1A;
+    position: relative;
+}
+.header__black{ 
+    width: 100%;
+    height: 35px;
+    background-color: #0C0C0C;
+    position: absolute;
+    bottom: 0;
+
+}
+.header__circle{ 
+    position: relative;
+    border: 10px solid #0C0C0C;
+    width: 70px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: white;
+    left: 90%;
+    transform: translateY(-25%);
+}
+.header__circle:before{ 
+    content:'';
+    position: absolute;
+    width: 35px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #0C0C0C;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
